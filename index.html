@@ -8,8 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <header id="header">
-        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-image">
+    <header id="header">      
+        <div class="logo">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-image">
+        </div>
+
         <div id="nav-bar">
             <ul>
                 <li class="nav-link"><a href="#">Features</a></li>
@@ -22,7 +25,7 @@
     <main id="main">
         <div id="container">
             <div id="container-header">
-                <p>Handcrafted, home-made masterpieces</p>
+                <h2>Handcrafted, home-made masterpieces</h2>
                 
                 <form action="" id="form">
                     <input type="email" id="email" placeholder="Enter your email address">
@@ -50,9 +53,9 @@
             </div>
 
             <div id="prices">
-                <div id="tenor">
-                    <div><p>tenor trombone</p></div>
-                    <p>$600</p>
+                <div id="tenor" class="instrument">
+                    <div class="title"><strong>tenor trombone</strong></div>
+                    <p><strong>$600</strong></p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum dolor</p>
@@ -60,9 +63,9 @@
                     <button>select</button>
                 </div>
 
-                <div id="bass">
-                    <div><p>bass trombone</p></div>
-                    <p>$900</p>
+                <div id="bass" class="instrument">
+                    <div class="title"><strong>bass trombone</strong></div>
+                    <p><strong>$900</strong></p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum dolor</p>
@@ -70,9 +73,9 @@
                     <button>select</button>
                 </div>
 
-                <div id="valve">
-                    <div><p>valve trombone</p></div>
-                    <p>$1200</p>
+                <div id="valve" class="instrument">
+                    <div class="title"><strong>valve trombone</strong></div>
+                    <p><strong>$1200</strong></p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum</p>
                     <p>Lorem ipsum dolor</p>

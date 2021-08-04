@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 :root {
     --background-color: #EEEEEE;
+    --background-div-color: #ddd;
+    --background-button-color: #F1C40F;
+
+    --color-white: #fff
 }
 
 * {
@@ -11,15 +17,32 @@
 body {
     background-color: var(--background-color);
     font-size: 1rem;
+    font-family: 'Lato', sans-serif;;
+}
+
+input {
+    display: block;
+    margin: auto;
 }
 
 #header {
     background-color: var(--background-color);
+    height: 4.6875rem;
     position: sticky;
     top: 0;
 
     display: flex;
     justify-content: space-between;
+}
+
+#container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-image {
+    width: 18.75rem;
 }
 
 #nav-bar li {
@@ -29,10 +52,51 @@ body {
 
 #container {
     margin: auto;
-    width: 50rem;
+    width: 62.5rem;
+}
+
+#email {
+    background-color: var(--color-white);
+    width: 17.1875rem;
+    padding: 0.3125rem;
+    border: solid 1px;
 }
 
 #prices {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.instrument {
+    border: solid 1px;
+    text-align: center;
+}
+
+.instrument .title {
+    text-transform: uppercase;
+    background-color: var(--background-div-color);
+}
+
+.instrument button {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--background-button-color);
+    padding: 5px 20px;
+}
+
+#footer {
+    background-color: var(--background-div-color);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#footer ul {
+    list-style: none;    
+}
+
+#footer li {
+    display: inline-block;
 }
