@@ -1,0 +1,33 @@
+:root {
+    --background-color: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-size: 1rem;
+}
+
+#header {
+    background-color: var(--background-color);
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar li {
+    display: inline-block;
+    list-style: none;
+}
+
+#container {
+    margin: auto;
+    width: 50rem;
+}
