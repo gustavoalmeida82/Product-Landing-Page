@@ -31,3 +31,8 @@ body {
     margin: auto;
     width: 50rem;
 }
+
+#prices {
+    display: flex;
+    justify-content: space-around;
+}
